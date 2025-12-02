@@ -87,5 +87,3 @@ Here is how we perform the "Fruit Salad" analysis (scRNA-seq) using Scanpy comma
     * You visualize these marker genes. If Cluster 0 has high expression of *CD3D*, you rename it "T-Cells."
 
 
-
-This diagram summarizes the flow: from the raw matrix $\to$ AnnData object $\to$ Preprocessing $\to$ PCA/UMAP $\to$ Final Clusters.
