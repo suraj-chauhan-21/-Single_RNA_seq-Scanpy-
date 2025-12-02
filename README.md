@@ -1,5 +1,7 @@
 # Single_RNA_Sequencing 
   using Scanpy
+
+
 Imagine you have a basket of fruit (your tissue sample) containing strawberries, bananas, and grapes.
 
     Bulk RNA Sequencing is like putting all that fruit into a blender.
