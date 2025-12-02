@@ -28,6 +28,8 @@ But Single-Cell Sequencing tells you:
     To explain this using **Scanpy** (Single-Cell Analysis in Python), we need to understand that Scanpy uses a specific data structure called **AnnData** (Annotated Data). Think of AnnData as a smart Excel sheet that holds your gene counts, cell information (metadata), and gene information all in one object.
 
 Here is how we perform the "Fruit Salad" analysis (scRNA-seq) using Scanpy commands, step-by-step:
+<img width="915" height="624" alt="- visual selection(20)" src="https://github.com/user-attachments/assets/96c22606-0c4b-4e4b-8abe-bcb1287a0655" />
+
 
 ### **1. Loading and QC (The Inspection)**
 **Goal:** Load the data and throw away the "rotten fruit" (low-quality cells).
