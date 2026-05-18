@@ -1,0 +1,25 @@
+name: scrna_scanpy
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.23.0
+  - pandas>=1.5.0
+  - matplotlib>=3.6.0
+  - seaborn>=0.12.0
+  - scikit-learn>=1.2.0
+  - scipy>=1.10.0
+  - h5py>=3.8.0
+  - pytables>=3.8.0
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - pip:
+    - scanpy>=1.9.8
+    - anndata>=0.10.0
+    - leidenalg>=0.10.0
+    - python-igraph>=0.11.0
+    - umap-learn>=0.5.3
